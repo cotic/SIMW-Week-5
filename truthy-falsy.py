@@ -1,6 +1,7 @@
 import ast
 
-# uses ast.literal_eval() - converts a string to a Python literal
+# uses ast.literal_eval()
+#  - converts a string to a Python literal
 # uses bool() cast - converts a value to its truthiness
 def tf_status(code_str):
     """Evaluate and print the truthiness of Python code string"""
